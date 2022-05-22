@@ -1,0 +1,38 @@
+//output:../index.html 
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(href="../css/style.css" rel="stylesheet")
+        title COMPANYPUG
+    body
+        h1 Registro de Empleados COMPANYPUG
+        form(className="register-form" onSubmit="")
+            img(src="../img/LI.jpg")
+            div(class="mb-3")
+                label(for="name" class="form-label") Nombres 
+                input(type="text" class="form-control" id="name")
+               
+            div(class="mb-3")
+                label(for="apellido" class="form-label") Apellidos 
+                input(type="text" class="form-control" id="apellido")
+                
+            div(class="mb-3")
+                label(for="identificacion" class="form-label") Identificacion 
+                input(type="text" class="form-control" id="identificacion")
+               
+            div(class="mb-3")
+                label(for="direccion" class="form-label") Direccion 
+                input(type="text" class="form-control" id="direccion")
+               
+            div(class="mb-3")
+                label(for="telefono" class="form-label") Telefono 
+                input(type="text" class="form-control" id="telefono")
+                
+            div(class="mb-3")
+                label(for="correo" class="form-label") Correo 
+                input(type="email" class="form-control" id="correo")
+            
+            button Registrar

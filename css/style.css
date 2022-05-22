@@ -1,0 +1,53 @@
+ body{
+    background-size: 100%;
+    background:url(../img/pp.jpg)no-repeat 0px 0px;
+    margin: 0 auto;
+    background-position: center;
+    padding: auto;
+    width: auto;
+
+
+  }
+  img{
+    margin: 5px;
+    width: 250px;
+    padding:30px 100px 15px 90px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    color: #00E5FF;
+  }
+  form{
+    display:block;
+    margin:0 auto;
+    padding:20px 100px 500px 100px;
+    background-color:#64FFDA;
+    width:500px;
+    height:300px;
+    border-radius: 25px;
+  
+  }
+  label{
+    color:#F5F5F5(0, 0, 0);
+    font-size: 25px;
+  }
+  input{
+    border-radius: 5px;
+    width: 80%;
+    padding: 16px 20px;
+  }
+  button{
+    background-color: #04AA6D;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px 140px;
+    cursor: pointer;
+    width: 50%;
+  } 
+    
+  
+  
